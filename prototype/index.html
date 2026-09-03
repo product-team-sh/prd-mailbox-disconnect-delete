@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mailbox disconnect/delete — prototype</title>
+<title>Mailbox disconnect/delete – prototype</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
 :root{
@@ -68,7 +68,7 @@ kbd{font-family:ui-monospace,monospace;font-size:11px;background:var(--bg-second
 
 <div class="topbar">
   <a class="topbar-back" href="../">&larr; PRD</a>
-  <span class="topbar-title">Mailbox disconnect/delete — prototype</span>
+  <span class="topbar-title">Mailbox disconnect/delete – prototype</span>
   <span class="spacer"></span>
   <span class="counter" id="counter">1 / 7</span>
 </div>
@@ -88,18 +88,18 @@ kbd{font-family:ui-monospace,monospace;font-size:11px;background:var(--bg-second
 
 <script>
 var SCREENS = [
-  { file: "kebab.png", label: "1 · Entry — kebab menu",
+  { file: "kebab.png", label: "1 · Entry – kebab menu",
     cap: "<b>Email Accounts row, kebab menu open.</b> Delete is grouped and colored apart from the routine items." },
   { file: "loading.png", label: "2 · Loading",
-    cap: "<b>Live impact fetch.</b> No instant skip past this — never a cached count." },
+    cap: "<b>Live impact fetch.</b> No instant skip past this – never a cached count." },
   { file: "impact-partial.png", label: "3a · Impact, partial",
-    cap: "<b>Disconnect, partial reduction.</b> Every affected sequence still has another sender — amber, reversible badge." },
+    cap: "<b>Disconnect, partial reduction.</b> Every affected sequence still has another sender – amber, reversible badge." },
   { file: "impact-sole.png", label: "3b · Impact, mixed",
-    cap: "<b>Delete, mixed severity.</b> Sole-sender sequences sort first, red, in-thread warning inline — permanent badge, red confirm." },
+    cap: "<b>Delete, mixed severity.</b> Sole-sender sequences sort first, red, in-thread warning inline – permanent badge, red confirm." },
   { file: "no-impact.png", label: "4 · No impact",
-    cap: "<b>Zero active sequences.</b> Plain confirm, no typed gate — the only single-click state." },
+    cap: "<b>Zero active sequences.</b> Plain confirm, no typed gate – the only single-click state." },
   { file: "blocked.png", label: "5 · Blocked",
-    cap: "<b>Fetch failed.</b> Blocked, not skipped — no path from here to a completed removal." },
+    cap: "<b>Fetch failed.</b> Blocked, not skipped – no path from here to a completed removal." },
   { file: "success.png", label: "6 · Success",
     cap: "<b>Confirmed.</b> States what actually happened, not a generic \"done.\"" }
 ];
